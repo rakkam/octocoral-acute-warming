@@ -13,11 +13,11 @@ library(emmeans)
 library(MASS)
 
 # set directory
-setwd("C:/Users/maria/Projects/DFO/stats/code-data_todeliver/Final")
+setwd("...")
 
 ## Figures
 
-all_dat_expanded<-read_csv("CoralHealthField.csv")
+all_dat_expanded<-read_csv("Data/CoralHealthField.csv")
 
 all_dat_expanded %>% 
   group_by(Year,location,dive,Species) %>% 
