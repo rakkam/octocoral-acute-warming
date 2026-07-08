@@ -20,7 +20,7 @@ library(effects)
 
 
 # set directory
-setwd("C:/Users/maria/Projects/DFO/stats/code-data_todeliver/Final")
+setwd("...")
 
 ##--------------------------------------------------------------------------
 ## Monitoring 
